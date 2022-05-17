@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pre-séjour</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style-Redier.css">
 </head>
 <body>
   <center>
@@ -31,7 +31,7 @@
                                       <tbody>
                                         <tr>
                                           <td class="mcnTextContent" style="mso-line-height-rule: exactly" valign="top">
-                                          Votre réservation à l'{{account.name}}
+                                            Votre réservation à l'{{account.name}}
                                           </td>
                                         </tr>
                                       </tbody>              
@@ -95,53 +95,62 @@
                               </tbody>
                             </table>
                             <!-- -----------------    END BLOCK GROS TITRE      ------------------>
-                            <!-- -----------------    BLOCK PARAGRAPHE      ---------------------->
-                            <table class="mcnTextContentContainer" align="left" border="0" cellpadding="0" cellspacing="0" width="100%">
-                              <tbody>
-                                <tr>
-                                    <td class="mcnTextContent">
-                                      <p class="paragraphe">
-                                        Bonjour {{booking.guest.first_name}}​,<br><br>
-                                        Nous vous remercions d'avoir réservé à l'{{account.name}} du <span class="paragraphe font-highlight">{{booking.arrival | date: "%d.%m.%Y"}}</span> au <span class="paragraphe font-highlight">{{booking.departure | date: "%d.%m.%Y"}}</span>.<br><br>
-                                      </p>
-                                      <p class="paragraphe">
-                                        Vous pouvez accélérer votre arrivée en vous enregistrant en ligne en cliquant sur le lien ci-dessous.
-                                      </p><br>
-                                    </td>
-                                </tr>
-                              </tbody>
-                            </table>
-                            <!-- -----------------------    END BLOCK PARAGRAPHE      ---------------------->
-                            <!-- -----------------------    BLOCK NOTICE      -----------------------------
-                            <table class="mcnBoxedTextBlock" border="0" cellpadding="0" cellspacing="0" width="100%">
-                              <tbody class="mcnBoxedTextBlockOuter">
-                                <tr>
-                                  <td class="mcnBoxedTextBlockInner">
-                                    <table class="mcnBoxedTextContentContainer" align="left" border="0" cellpadding="0" cellspacing="0" width="100%">
-                                      <tbody>
-                                        <tr>
-                                          <td class="notice">
-                                           <table border="0" cellspacing="0" class="mcnBoxTextContentContainer" width="100%">
-                                              <tbody>
-                                                   <tr>
-                                                       <td valign="top" class="mcnTextContent">
-                                                           <div class="notice-emoji">📣</div>
-                                                           <div class="notice-text">
-                                                               <p>Vous accueillir en veillant sur votre sécurité et celle de notre équipe sont notre priorité. C’est pourquoi toutes les formalités administratives liées à votre séjour sont à effectuer sur votre portail digital personnel.</p>
-                                                           </div>
-                                                       </td>
-                                                   </tr>
-                                               </tbody>
-                                           </table>
-                                          </td>
-                                        </tr>
-                                      </tbody>
-                                    </table>
+                           <!-- -----------------    BLOCK PARAGRAPHE      ---------------------->
+                           <table class="mcnTextContentContainer" align="left" border="0" cellpadding="0" cellspacing="0" width="100%">
+                            <tbody>
+                              <tr>
+                                  <td class="mcnTextContent">
+                                    <p class="paragraphe">
+                                      Bonjour {{booking.guest.first_name}}​,<br><br>
+                                      Nous vous remercions d'avoir réservé à l'{{account.name}} du <span class="paragraphe font-highlight">{{booking.arrival | date: "%d.%m.%Y"}}</span> au <span class="paragraphe font-highlight">{{booking.departure | date: "%d.%m.%Y"}}</span>.<br><br>
+                                    </p>
                                   </td>
-                                </tr>
-                              </tbody>
-                            </table> ->
-                            
+                              </tr>
+                            </tbody>
+                          </table>
+                          <!-- -----------------------    END BLOCK PARAGRAPHE      ---------------------->
+                          <!-- -----------------------    BLOCK NOTICE      ------------------------------>
+                          <table class="mcnBoxedTextBlock" border="0" cellpadding="0" cellspacing="0" width="100%">
+                            <tbody class="mcnBoxedTextBlockOuter">
+                              <tr>
+                                <td class="mcnBoxedTextBlockInner">
+                                  <table class="mcnBoxedTextContentContainer" align="left" border="0" cellpadding="0" cellspacing="0" width="100%">
+                                    <tbody>
+                                      <tr>
+                                        <td class="notice">
+                                         <table border="0" cellspacing="0" class="mcnBoxTextContentContainer" width="100%">
+                                            <tbody>
+                                                 <tr>
+                                                     <td valign="top" class="mcnTextContent">
+                                                         <div class="notice-emoji">📣</div>
+                                                         <div class="notice-text">
+                                                             <p>Veuillez noter que nous faisons des <strong>travaux de rénovation au sein de l’établissement</strong>, à partir  8h à 17h du lundi au vendredi pendant les mois de janvier à mai.</p>
+                                                             Le restaurant reste néanmoins ouvert aux horaires habituelles.<br>
+                                                             Nous vous prions de nous excuser pour la gêne occasionnée.<br><br>
+                                                         </div>
+                                                     </td>
+                                                 </tr>
+                                             </tbody>
+                                         </table>
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table> 
+                           <table class="mcnTextContentContainer" align="left" border="0" cellpadding="0" cellspacing="0" width="100%">
+                            <tbody>
+                              <tr>
+                                  <td class="mcnTextContent">                                  
+                                    <p class="paragraphe">
+                                      Vous pouvez accélérer votre arrivée en vous enregistrant en ligne en cliquant sur le lien ci-dessous.
+                                    </p><br>
+                                  </td>
+                              </tr>
+                            </tbody>
+                          </table>
                             <!------------------    BLOCK BOUTON PORTAIL      ---------------------->
                             <table border="0" cellpadding="0" cellspacing="0" class="mcnButtonBlock" width="100%">
                               <tbody class="mcnButtonBlockOuter">
@@ -225,7 +234,7 @@
                   </td>
                 </tr>                
                 <tr>
-                  <td align="center" id="templateFooter" style="background-color: #eee2d1">
+                  <td align="center" id="templateFooter" style="background-color: #fbf6ea">
                     <table align="center" border="0" cellpadding="0" cellspacing="0" class="templateContainer" width="100%">
                       <tbody>
                         <tr>
@@ -238,20 +247,12 @@
                                       <tbody>
                                         <tr>
                                             <td class="mcnTextContent">
-                                              <a href="https://www.facebook.com/HappyCulture/" target="_blank">
-                                                <img class="social-media" data-file-id="5602701" height="35" width="35" src="https://mcusercontent.com/0edca964b3c1d2652ae103743/images/a612daab-a70d-4b69-9d4f-44ade4349019.png">
+                                              <a href="https://www.facebook.com/pages/Auberge%20du%20R%C3%A9dier/160141070708701/" target="_blank">
+                                                <img class="social-media" data-file-id="5602701" height="35" width="35" src="https://hotelnude.s3.eu-west-3.amazonaws.com/facebook.png">
                                               </a>
-                                              <a href="https://twitter.com/_happyculture" target="_blank">
-                                                  <img class="social-media" data-file-id="5602701" height="35" width="35" src="https://mcusercontent.com/0edca964b3c1d2652ae103743/images/e3c2f3cf-de3f-4252-8a48-e1201937e660.png">
                                                 </a>
-                                                <a href="https://www.instagram.com/happyculture/" target="_blank">
-                                                  <img class="social-media" data-file-id="5602701" height="35" width="35" src="https://mcusercontent.com/0edca964b3c1d2652ae103743/images/e18352a3-4f70-4971-9e7f-f16d40c08c72.png">
-                                                </a>
-                                                <a href="https://www.linkedin.com/company/happyculture-collection" target="_blank">
-                                                  <img class="social-media" data-file-id="5602701" height="35" width="35" src="https://mcusercontent.com/0edca964b3c1d2652ae103743/images/e2576ef2-a523-4012-9aa3-b13011c3b280.png">
-                                                </a>
-                                                <a href="https://www.pinterest.fr/happyculture/" target="_blank">
-                                                  <img class="social-media" data-file-id="5602701" height="35" width="35" src="https://mcusercontent.com/0edca964b3c1d2652ae103743/images/088f0a98-14cf-41f5-ab01-0c083b8413b8.png">
+                                                <a href="https://www.instagram.com/aubergeduredier/?hl=fr" target="_blank">
+                                                  <img class="social-media" data-file-id="5602701" height="35" width="35" src="https://hotelnude.s3.eu-west-3.amazonaws.com/instagram.png">
                                                 </a>
                                             </td>
                                           </tr>
@@ -286,10 +287,8 @@
                                         <tr>
                                           <td class="mcnTextContent footer-text">
                                             <em>
-                                                Vous recevez cet email suite à votre réservation dans un hôtel HappyCulture.<br />
-                                                HappyCulture est un label hôtelier propulsé par Honotel Développement © qui distingue des établissements aux services attentionnés, en live et online.<br>                                      
-                                                Conformément au RGPD et à la loi « Informatique et Libertés » du 6 janvier 1978 modifiée, vous pouvez exercer vos droits d’accès, de rectification ou d’effacement, de limitation du traitement, d’opposition, de suppression et de portabilité des données vous concernant en écrivant à l’adresse <a href = "mailto: dpo@happyculture.com">dpo@happyculture.com</a><br>
-                                                Vous pouvez également introduire une réclamation auprès de la CNIL (<a href="www.cnil.fr">www.cnil.fr</a>). Pour en savoir plus veuillez consulter notre <a href="https://www.happyculture.com/fr/politique-confidentialite.html">politique de confidentialité</a>.<br>                                                                                
+                                              Vous recevez cet email suite à votre réservation à l'{{account.name}}.<br />                                      
+                                                Vous pouvez exercer vos droits liés à vos données personnelles en écrivant à <strong>{{account.email}}</strong>                                                                                
                                               </em>                                                       
                                           </td>
                                         </tr>

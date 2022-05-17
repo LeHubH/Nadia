@@ -1,1 +1,318 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pre-séjour</title>
+    <link rel="stylesheet" href="style-Redier.css">
+</head>
+<body>
+  <center>
+    <table align="center" border="0" id="bodyTable" cellpadding="0" cellspacing="0" height="100%" width="100%">
+      <tbody>
+        <tr>
+          <td align="center" id="bodyCell" valign="top" style="mso-line-height-rule: exactly">
+            <!--XXXXXXXXXXXXXXXXXXXXXXXXXXXXX BEGIN TEMPLATE // XXXXXXXXXXXXXXXXXXXXXXXXXXX-->
+            <table border="0" cellpadding="0" cellspacing="0" height="100%" width="100%">             
+              <tbody>
+                <!-- ---------------   BLOCK TEMPLATE PREHEADER    -------------------------------------->
+                <tr>
+                  <td align="center" id="templatePreheader" valign="top" style="mso-line-height-rule: exactly">
+                    <table class="templateContainer"align="center" border="0"  cellpadding="0" cellspacing="0" width="100%">
+                      <tbody>
+                        <tr>
+                          <td class="preheaderContainer" valign="top">
+                            <table class="mcnTextBlock" cellpadding="0" cellspacing="0" width="100%">
+                              <tbody class="mcnTextBlockOuter">
+                                <tr>
+                                  <td class="mcnTextBlockInner" valign="top">
+                                    <table class="mcnTextContentContainer" align="left" border="0" cellpadding="0" cellspacing="0" width="100%">
+                                      <tbody>
+                                        <tr>
+                                          <td class="mcnTextContent" style="mso-line-height-rule: exactly" valign="top">
+                                            Your booking at{{account.name}}
+                                          </td>
+                                        </tr>
+                                      </tbody>              
+                                    </table>
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>     
+                  </td>
+                </tr>
+                <!-- ---------------   END TEMPLATE PREHEADER       ---------------------------->
+                <!-- -----------------    BEGIN MAIN TEMPLATE       ---------------------------->
+                <tr>
+                  <td align="center" id="templateHeader" valign="top">
+                    <table class="templateContainer" align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+                      <tbody>
+                        <tr>
+                          <td class="headerContainer" valign="top">
+                            <!-- -----------------    BLOCK LOGO      ---------------------------->
+                            <table align="center"class="mcnImageBlock" border="0" cellpadding="0" cellspacing="0" >
+                              <tbody class="mcnImageBlockOuter">
+                                <tr>
+                                  <td class="mcnImageBlockInner">
+                                    <table align="left" border="0" cellpadding="0" cellspacing="0" class="mcnImageContentContainer">
+                                      <tbody>
+                                        <tr>
+                                          <td align="center" class="mcnImageContent" valign="top">
+                                            <img align="center" class="mcnRetinaImage" src="{{confirmation_logo_url}}" alt="logo" max-width="250">
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                            <!-- -----------------    END BLOCK LOGO  ---------------------------->
+                            <!-- -----------------    BLOCK GROS TITRE      ---------------------->
+                            <table class="mcnTextBlock" border="0" cellpadding="0" cellspacing="0" width="100%">
+                              <tbody class="mcnTextBlockOuter">
+                                <tr>
+                                  <td class="mcnTextBlockInner">
+                                    <table class="mcnTextContentContainer" align="left" border="0" cellpadding="0" cellspacing="0">
+                                      <tbody>
+                                        <tr>
+                                          <td class="mcnTextContent" valing="top">
+                                            <h1>
+                                              📌 Last step, <br>
+                                              prepare your stay
+                                            </h1>
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                            <!-- -----------------    END BLOCK GROS TITRE      ------------------>
+                           <!-- -----------------    BLOCK PARAGRAPHE      ---------------------->
+                           <table class="mcnTextContentContainer" align="left" border="0" cellpadding="0" cellspacing="0" width="100%">
+                            <tbody>
+                              <tr>
+                                  <td class="mcnTextContent">
+                                    <p class="paragraphe">
+                                      Hello {{booking.guest.first_name}}​,<br><br>
+                                      Thank you for booking at {{account.name}} from <span class="paragraphe font-highlight">{{booking.arrival | date: "%d.%m.%Y"}}</span> to <span class="paragraphe font-highlight">{{booking.departure | date: "%d.%m.%Y"}}</span>.<br><br>
+                                    </p>
+                                  </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                          <!-- -----------------------    END BLOCK PARAGRAPHE      ---------------------->
+                          <!-- -----------------------    BLOCK NOTICE      ------------------------------>
+                          <table class="mcnBoxedTextBlock" border="0" cellpadding="0" cellspacing="0" width="100%">
+                            <tbody class="mcnBoxedTextBlockOuter">
+                              <tr>
+                                <td class="mcnBoxedTextBlockInner">
+                                  <table class="mcnBoxedTextContentContainer" align="left" border="0" cellpadding="0" cellspacing="0" width="100%">
+                                    <tbody>
+                                      <tr>
+                                        <td class="notice">
+                                         <table border="0" cellspacing="0" class="mcnBoxTextContentContainer" width="100%">
+                                            <tbody>
+                                                 <tr>
+                                                     <td valign="top" class="mcnTextContent">
+                                                         <div class="notice-emoji">📣</div>
+                                                         <div class="notice-text">
+                                                             <p>Please note that the property is currently undergoing <strong>renovation works</strong>, from 8AM to 5PM from Monday to Friday during the months of January to May.</p>
+                                                             The restaurant remains open at the usual times.<br>
+                                                             We apologize for the inconvenience.<br><br>
+                                                         </div>
+                                                     </td>
+                                                 </tr>
+                                             </tbody>
+                                         </table>
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table> 
+                           <table class="mcnTextContentContainer" align="left" border="0" cellpadding="0" cellspacing="0" width="100%">
+                            <tbody>
+                              <tr>
+                                  <td class="mcnTextContent">                                  
+                                    <p class="paragraphe">
+                                      You can speed up your arrival by checking in online.
+                                    </p><br>
+                                  </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                            <!------------------    BLOCK BOUTON PORTAIL      ---------------------->
+                            <table border="0" cellpadding="0" cellspacing="0" class="mcnButtonBlock" width="100%">
+                              <tbody class="mcnButtonBlockOuter">
+                                <tr>
+                                  <td align="center" class="mcnButtonBlockInner">
+                                    <table border="0" cellpadding="0" cellspacing="0" class="mcnButtonContentContainer">
+                                      <tbody>
+                                        <tr>
+                                          <td align="center" class="mcnButtonContent" valign="middle">                
+                                              <a class="mcnButton" href="{{online_checkin_url}}" target="_blank">CHECK-IN EN LIGNE</a>                
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                            <!-------------------    END BLOCK BOUTON PORTAIL      ---------------------->
+                            <!-------------------    BLOCK INFOS PRATIQUES         ---------------------->
+                            <table border="0" cellpadding="0" cellspacing="0" class="mcnTextBlock" width="100%">
+                              <tbody class="mcnTextBlockOuter">
+                                <tr>
+                                  <td class="mcnTextBlockInner" valign="top">
+                                    <table align="left" border="0" cellpadding="0" cellspacing="0" class="mcnTextContentContainer">
+                                      <tbody>
+                                        <tr>
+                                          <td class="mcnTextContent">
+                                            <h3>Your booking at{{account.name}}</h3>
+                                            <p class="paragraphe">🌃 <strong>{{booking.stay}}</strong> night(s)</p>
+                                            <p class="paragraphe">➡️ Arrival on <strong>{{booking.arrival | date: "%d.%m.%Y"}}</strong></p>
+                                            <p class="paragraphe">⬅️ Departure on <strong>{{booking.departure | date: "%d.%m.%Y"}}</strong></p>
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                            <!-------------------   END BLOCK INFOS PRATIQUES         ---------------------->
+                            <!-----------------------------    BLOCK QUESTIONS     -------------------------->
+                            <table border="0" cellpadding="0" cellspacing="0" class="mcnTextBlock" width="100%">
+                              <tbody class="mcnTextBlockOuter">
+                                <tr>
+                                  <td class="mcnTextBlockInner">
+                                    <table align="left" border="0" cellpadding="0" cellspacing="0" class="mcnTextContentContainer" width="100%">
+                                      <tbody>
+                                        <tr>
+                                          <td class="mcnTextContent">
+                                            <p class="questions">
+                                              🛎 <br>
+                                              <strong>A question?</strong><br>
+                                              Reply to this email for further information.
+                                            </p>
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                            <!------------------------    END BLOCK QUESTIONS     ------------------------->
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </td>
+                </tr>
+                <!-------------------------    BLOCK RESEAUX SOCIAUX     ---------------------------->
+                <tr>
+                  <td align="center" id="templateLowerBody">
+                    <table align="center" border="0" cellpadding="0" cellspacing="0" class="templateContainer">
+                      <tbody>
+                        <tr>
+                          <td class="bodyContainer"></td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </td>
+                </tr>                
+                <tr>
+                  <td align="center" id="templateFooter" style="background-color: #fbf6ea">
+                    <table align="center" border="0" cellpadding="0" cellspacing="0" class="templateContainer" width="100%">
+                      <tbody>
+                        <tr>
+                          <td class="footerContainer" valign="top">
+                            <table border="0" cellpadding="0" cellspacing="0" class="mcnTextBlock">
+                              <tbody class="mcnTextBlockOuter">
+                                <tr>
+                                  <td class="mcnTextBlockInner">
+                                    <table align="left" border="0" cellpadding="0" cellspacing="0" class="mcnTextContentContainer">
+                                      <tbody>
+                                        <tr>
+                                            <td class="mcnTextContent">
+                                              <a href="https://www.facebook.com/pages/Auberge%20du%20R%C3%A9dier/160141070708701/" target="_blank">
+                                                <img class="social-media" data-file-id="5602701" height="35" width="35" src="https://hotelnude.s3.eu-west-3.amazonaws.com/facebook.png">
+                                              </a>
+                                                </a>
+                                                <a href="https://www.instagram.com/aubergeduredier/?hl=fr" target="_blank">
+                                                  <img class="social-media" data-file-id="5602701" height="35" width="35" src="https://hotelnude.s3.eu-west-3.amazonaws.com/instagram.png">
+                                                </a>
+                                            </td>
+                                          </tr>
+                                      </tbody>
+                                    </table>
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                            <table border="0" cellpadding="0" cellspacing="0" class="mcnDividerBlock">
+                              <tbody class="mcnDividerBlockOuter">
+                                <tr>
+                                  <td class="mcnDividerBlockInner">
+                                    <table border="0" cellpadding="0" cellspacing="0" class="mcnDividerContent">
+                                      <tbody>
+                                        <tr>
+                                          <td>                                         
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                            <table border="0" cellpadding="0" cellspacing="0" class="mcnTextBlock">
+                              <tbody class="mcnTextBlockOuter">
+                                 <tr>
+                                  <td class="mcnTextBlockInner">
+                                    <table align="left" border="0" cellpadding="0" cellspacing="0" class="mcnTextContentContainer">
+                                      <tbody>
+                                        <tr>
+                                          <td class="mcnTextContent footer-text">
+                                            <em>
+                                              You are receiving this email because you have booked at {{account.name}}.<br />                                      
+                                              You can exercise your rights related to your personal data by writing to <strong>{{account.email}}</strong>                                                                                
+                                              </em>                                                       
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </td>
+                </tr>
+                <!----------------------  END BLOCK RESEAUX SOCIAUX     ----------------------->
+                <!-- -----------------    END MAIN TEMPLATE       ---------------------------->
+              </tbody>              
+            </table>
+            <!--XXXXXXXXXXXXXXXXXXXXXXXXXXXXX END TEMPLATE // XXXXXXXXXXXXXXXXXXXXXXXXXXX----->
+          </td>
+        </tr>        
+      </tbody>
+    </table>
+  </center>    
+</body>
+</html>

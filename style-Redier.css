@@ -124,7 +124,7 @@ body,#bodyTable,#bodyCell{
     min-width: 100%
 }
 .mcnBoxTextContentContainer {
-    background-color: #f3ede5;
+    background-color: #fbf6ea;
 }
 .mcnTextBlockInner {
     padding-top: 9px;
@@ -281,7 +281,7 @@ table.table td, table.table th {
 .mcnButtonContentContainer {
     border-collapse: separate !important;
     border-radius: 0px;
-    background-color: #210D81;
+    background-color: #526148;
     mso-table-lspace: 0pt;
     mso-table-rspace: 0pt;
     -ms-text-size-adjust: 100%;
@@ -315,7 +315,7 @@ table.table td, table.table th {
     outline: none;
     text-decoration: none;
     -ms-interpolation-mode: bicubic;
-    padding: 15px 0;
+    padding: 18px 0;
 }
 .mcnDividerBlock {
     min-width: 100%;
@@ -365,7 +365,7 @@ td.mcnTextContent em {
     font-size: 12px;
 }
 #templatePreheader {
-    background-color: #eee2d1;    
+    background-color: #fbf6ea;    
     border-bottom: 0;
     padding-top: 0;
     padding-bottom: 9px;
@@ -382,7 +382,7 @@ td.mcnTextContent em {
     mso-line-height-rule: exactly;
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
-    background-color: #eee2d1!important;
+    background-color: #f1ebdd!important;
     padding-top: 9px;
     padding-bottom: 9px;
     vertical-align: top;
