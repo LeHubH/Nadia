@@ -160,6 +160,7 @@ body,#bodyTable,#bodyCell{
     padding-top: 10px;
 }
 .notice-text {
+    font-size: 14px;
     padding: 18px;
     color: #222222;
     text-align: center;
@@ -202,7 +203,8 @@ body,#bodyTable,#bodyCell{
     text-align: center;
 }
 .mcnRetinaImage {
-    max-width: 240px;
+    max-width: 300px;
+    max-height: 150px;
     padding: 0 10px;
     display: inline !important;
     vertical-align: bottom;
@@ -315,7 +317,7 @@ table.table td, table.table th {
     outline: none;
     text-decoration: none;
     -ms-interpolation-mode: bicubic;
-    padding: 18px 0;
+    padding: 18px 8px;
 }
 .mcnDividerBlock {
     min-width: 100%;
